@@ -3,8 +3,7 @@
 This project is an **AI-powered research agent** built from scratch using pure Python, without any frameworks like LangChain or LangGraph. It leverages a custom-built graph-based workflow to orchestrate multiple Large Language Models (LLMs) and external tools to perform in-depth research and generate a comprehensive, structured research paper. It could be used to answer other queries too using its tool for real time information access.
 
 ## 🤖 Agent Workflow
-<img width="405" height="553" alt="image" src="https://github.com/user-attachments/assets/c349860b-4f3b-4fe6-b7d8-c04a2146b2dd" />
-
+<img width="1129" height="211" alt="image" src="https://github.com/user-attachments/assets/7a3dad11-0993-4351-8c28-0c50c5e3f704" />
 
 The user interface is powered by **Streamlit**, providing a simple and intuitive way to interact with the agent.
 
