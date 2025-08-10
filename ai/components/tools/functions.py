@@ -12,7 +12,8 @@ def web_search(query: str) -> Optional[WebResponse]:
         "Authorization": f"Bearer {options.tavily_api_key}"
     }
     data = {
-        "query": query
+        "query": query,
+        "search_depth": "advanced"
     }
 
     try:
@@ -41,7 +42,7 @@ def web_search(query: str) -> Optional[WebResponse]:
 
 def research_papers(query: str) -> Optional[ResearchResponse]:
 
-    url = f"https://api.staging.crossref.org/works?rows=5&select=title%2CURL&query={query}"
+    url = f"https://api.staging.crossref.org/works?rows=15&select=title%2CURL&query={query}"
 
     try:
         response = requests.get(url=url)
